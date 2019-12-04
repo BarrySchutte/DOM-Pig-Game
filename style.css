@@ -6,7 +6,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
 }
 
 .clearfix::after {
@@ -16,7 +15,7 @@
 }
 
 body {
-    background-image: linear-gradient(rgba(62, 20, 20, 0.4), rgba(62, 20, 20, 0.4)), url(back.jpg);
+    background-image: linear-gradient(rgba(62, 20, 20, 0.4), rgba(62, 20, 20, 0.4)), url(img/back.jpg);
     background-size: cover;
     background-position: center;
     font-family: Lato;
@@ -120,21 +119,16 @@ button {
 }
 
 button:hover { font-weight: 600; }
-button:hover i { margin-right: 20px; }
 
 button:focus {
     outline: none;
 }
 
-i {
-    color: #EB4D4D;
+.icon {
     display: inline-block;
-    margin-right: 15px;
-    font-size: 32px;
-    line-height: 1;
-    vertical-align: text-top;
-    margin-top: -4px;
-    transition: margin 0.3s;
+    height: 25px;
+    margin-right: 5px;
+    margin-bottom: -5px;
 }
 
 .btn-new { top: 45px;}
