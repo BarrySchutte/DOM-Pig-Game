@@ -1,1 +1,1 @@
-# DOM-Dice-Game
+# DOM-Pig-Game
