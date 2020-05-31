@@ -53,7 +53,7 @@ document.querySelector(`.btn-hold`).addEventListener(`click`, function () {
         let input = document.querySelector(`.final-score`).value;
         let winningScore;
 
-           // Undefined, 0, null or "" are COERCED to false
+        // Undefined, 0, null or "" are COERCED to false
         // Anything else is COERCED to true
         if (input) {
             winningScore = input;
@@ -98,7 +98,7 @@ function init() {
     activePlayer = 0;
 
     document.querySelector(`.dice`).style.display = `none`;
-    
+
     document.getElementById(`score-0`).textContent = `0`;
     document.getElementById(`score-1`).textContent = `0`;
     document.getElementById(`current-0`).textContent = `0`;
